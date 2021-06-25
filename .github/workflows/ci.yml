@@ -9,9 +9,6 @@ on:
       - '*/*/*/*'
       - '!master'
       - '!dev'
-    paths:
-      - '**.go'
-
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
