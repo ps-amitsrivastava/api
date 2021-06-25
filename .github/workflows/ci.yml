@@ -7,8 +7,9 @@ on:
       - '*/*'
       - '*/*/*'
       - '*/*/*/*'
-      - '!master'
-      - '!dev'
+      - '!main'
+      - '!develop'
+      - '!release*'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
