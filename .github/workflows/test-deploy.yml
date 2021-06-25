@@ -2,12 +2,6 @@ name: Deploy Testing Environment
 
 on: workflow_dispatch
 
-env:
-  CLUSTER_NAME: wtb1
-  CLUSTER_REGION: us-west-2
-  NAMESPACE: testing
-  BIN_PATH: "$GITHUB_WORKSPACE/../$GITHUB_RUN_ID/bin"
-
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
