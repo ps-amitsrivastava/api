@@ -9,7 +9,7 @@ on:
       - '*/*/*/*'
       - '!main'
       - '!develop'
-      - '!release-*'
+      - '!release**'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
